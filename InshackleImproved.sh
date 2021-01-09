@@ -467,8 +467,8 @@ check_follow=$(curl -s -L -b cookie.$user -d "ig_sig_key_version=4&signed_body=$
 
 if [[ $check_follow == "" ]]; then
 printf "\n\e[1;93m [!] An error occured !\n"
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Pausing for 10min...\e[0m\n"
-sleep 60
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Pausing for 10sec...\e[0m\n"
+sleep 10
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Reloging...\e[0m\n"
 log
 else
