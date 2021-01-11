@@ -435,7 +435,7 @@ therock="232192182"
 kylie="12281817"
 jelopez="305701719"
 messi="427553890"
-
+nat="787132"
 dualipa="12331195"
 mileycyrus="325734299"
 shawnmendes="212742998"
@@ -451,10 +451,37 @@ instagram="25025320"
 nasa="528817151"
 shawn="212742998"
 shraddha="296102572"
+kevin="6590609"
+lovato="189393625"
+madrid="290023231"
+ellen="18918467"
+barcelona="260375673"
+virat="2094200507"
+james="19410587"
+chris="29394004"
+shakira="217867189"
+victoria="3416684"
+david="186904952"
+gigi="12995776"
+priyanka="178537482"
+timber="303054725"
+emma="1418652011"
+deepika="572299277"
+will="3132929984"
+alia="259925762"
+huda="44222792"
+akshay="907025384"
+marce="176702683"
+anibra="637874562"
+bappe="4213518589"
+katrina="3562982855"
+balvin="10482862"
+anushka="196434978"
+
 
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi $nasa $shawn $shraddha> celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $dualipa $timber $deepika $priyanka $emma $gigi $david $james $victoria $shakira $chris $virat $bappe $katrina $anushka $ellen $barcelona $anibra $madrid $kevin $lovato $mileycyrus  $will $shawnmendes $marce $akshay $katyperry $balvin $charlieputh $alia $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $huda $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi $nasa $shawn $shraddha $nat> celeb_id
 fi
 
 while [[ true ]]; do
